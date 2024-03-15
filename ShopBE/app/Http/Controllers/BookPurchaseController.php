@@ -11,7 +11,6 @@ use Shetabit\Multipay\Invoice;
 use Illuminate\Support\Facades\Auth;
 use Shetabit\Payment\Facade\Payment;
 use Shetabit\Multipay\Exceptions\InvalidPaymentException;
-use Shetabit\Multipay\Exceptions\PurchaseFailedException;
 
 class BookPurchaseController extends Controller
 {
